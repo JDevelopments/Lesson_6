@@ -1,0 +1,174 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+body{
+   font-family: Lato, serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   min-width: 600px;
+   color: #424551;
+}
+
+/*------HEADER-----*/
+.header-block{
+   margin-bottom: 20px;
+   border-bottom: 2px solid rgb(104, 175, 85);
+}
+
+.lesson-number{
+   font-size: 42px;
+   font-weight: 900;
+   display: inline-block;
+   margin-top: 65px;
+   color: rgb(104, 175, 85);
+}
+
+/*------MAIN-----*/
+
+
+
+.text-h{
+   text-align: left;
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 60px;
+   padding-bottom: 40px;
+   color:#1E212C;
+}
+
+  .main-block{
+   max-width: 810px;
+   margin: 0 auto;
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   border-bottom: 2px solid  rgb(104, 175, 85);
+}
+
+.image{
+   margin-bottom: 60px;
+}
+.text-bould {
+   line-height: 30px;
+   font-size: 20px;
+   font-weight: 700;
+   margin-bottom: 24px;
+   color:#1E212C;
+}
+
+.content-block{
+   margin-bottom: 48px;
+}
+
+.content-block p {
+   margin-bottom: 32px;
+   line-height: 26px;
+   
+}
+
+.content-block p:last-child{
+   margin-bottom: 0px;
+}
+
+.text-bould-next{
+   margin-left: 58px;
+   margin-bottom: 48px;
+}
+
+.befor-list{
+   margin-bottom: 24px;
+}
+
+.list{
+   margin-bottom: 24px;
+   padding-left: 32px;
+   
+}
+
+.properties{
+   max-width: 810px;
+   margin: 0 auto;
+}
+
+.chapter{
+   font-weight: 700;
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+
+.overwlow-bloc{
+   height: 100px;
+   border-radius: 10px;
+   border: 2px solid gainsboro;
+   margin-bottom: 10px;
+}
+
+.properti{
+   margin-bottom: 40px;
+}
+
+.scrool{
+   overflow: scroll;
+}
+
+.auto{
+   overflow: auto;
+}
+
+  .display .span-block
+, .display div{
+   display: inline-block;
+   height: 50px;
+   width: 33%;
+   
+} 
+
+.span-block{
+   border: 2px dotted gainsboro;
+}
+
+.dashed{
+   border: 2px dashed gainsboro;
+}
+.double {
+   border: 2px double gainsboro;
+}
+
+.outline-opacity div{
+   outline: 3px solid gainsboro;
+   opacity: 0.5;
+}
+
+.pandora div{
+   height: 100px;
+   width: 100px;
+   margin: 0 auto;
+   background-color: rgba(220, 220, 220, 1);
+}
+
+.pandora .shadou-out{
+   border-radius: 50%;
+   background-color: yellow;
+   box-shadow: -84px 0px 5px rgb(104, 175, 85),  84px 0px 10px red ; 
+}
+
+.pandora .shadou-in{
+   border-radius: 5px 10px 15px 20px; 
+   box-shadow: inset 50px 0px 5px rgb(233, 21, 219);
+}
+
+main{
+   border-bottom: 2px solid  rgb(104, 175, 85);
+}
+/*------FOOTER-----*/
+.footer-box{
+   height: 50px;
+   background-color: rgb(104, 175, 85);
+   border-top:2px dashed rgba(220, 220, 220, 1);
+   border-bottom:2px dashed rgba(220, 220, 220, 1);
+   font-weight: 700;
+   text-align: center; 
+   line-height: 42px; 
+   color: white;
+}
+
