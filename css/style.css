@@ -11,29 +11,22 @@ body{
 }
 
 /*------HEADER-----*/
-.header-block{
+header{
    margin-bottom: 20px;
+}
+
+.header-block{
    border-bottom: 2px solid rgb(104, 175, 85);
 }
 
-.lesson-number{
-   font-size: 42px;
-   font-weight: 900;
-   display: inline-block;
-   margin-top: 65px;
-   color: rgb(104, 175, 85);
-}
-
 /*------MAIN-----*/
-
-
 
 .text-h{
    text-align: left;
    font-size: 46px;
    font-weight: 900;
    line-height: 60px;
-   padding-bottom: 40px;
+   margin-bottom: 40px;
    color:#1E212C;
 }
 
@@ -46,6 +39,7 @@ body{
 }
 
 .image{
+   width:100%;
    margin-bottom: 60px;
 }
 .text-bould {
@@ -80,9 +74,8 @@ body{
 }
 
 .list{
-   margin-bottom: 24px;
    padding-left: 32px;
-   
+   margin-bottom: 24px;
 }
 
 .properties{
@@ -171,4 +164,12 @@ main{
    line-height: 42px; 
    color: white;
 }
+
+
+.lesson-number{
+   font-size: 24px;
+   font-weight: 900;
+   color: rgb(255, 255, 255);
+}
+
 
